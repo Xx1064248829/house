@@ -13,7 +13,7 @@
 		  web_site
    </sql>
     
-   <select id="select" resultType="com.mooc.house.common.model.Agency">
+   <select id="select" resultType="agency">
       select <include refid="agencyField"/>
       from   agency
       <where>
@@ -61,7 +61,7 @@
       enable,
       agency_id
    </sql>
-    <select id="selectAgent" resultType="com.mooc.house.common.model.User" >
+    <select id="selectAgent" resultType="user" >
      select * from user
      <where>
        enable = 1 and type = 2

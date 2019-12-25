@@ -26,7 +26,7 @@ public class CommentService {
   }
 
   @Transactional(rollbackFor=Exception.class)
-  void addComment(Long houseId, Integer blogId, String content, Long userId, int type) {
+  private void addComment(Long houseId,Integer blogId, String content, Long userId,int type) {
     Comment comment = new Comment();
     if (type == 1) {
       comment.setHouseId(houseId);

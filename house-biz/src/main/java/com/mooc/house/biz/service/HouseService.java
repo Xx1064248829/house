@@ -45,8 +45,6 @@ public class HouseService {
 	 * 1.查询小区
 	 * 2.添加图片服务器地址前缀
 	 * 3.构建分页结果
-	 * @param query
-	 * @param build
 	 */
 	public PageData<House> queryHouse(House query, PageParams pageParams) {
 		List<House> houses = Lists.newArrayList();

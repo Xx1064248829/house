@@ -17,28 +17,28 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface HouseMapper {
 
-	List<House>  selectPageHouses(@Param("house")House house,@Param("pageParams")PageParams pageParams);
+    public List<House>  selectPageHouses(@Param("house")House house,@Param("pageParams")PageParams pageParams);
     
-	Long selectPageCount(@Param("house") House query);
+    public Long selectPageCount(@Param("house") House query);
 	
-	int insert(User account);
+	public int insert(User account);
 
-	List<Community> selectCommunity(Community community);
+	public List<Community> selectCommunity(Community community);
 
-	int insert(House house);
+	public int insert(House house);
 
-	HouseUser selectHouseUser(@Param("userId")Long userId,@Param("id") Long houseId,@Param("type") Integer integer);
+	public HouseUser selectHouseUser(@Param("userId")Long userId,@Param("id") Long houseId,@Param("type") Integer integer);
 	
-	HouseUser selectSaleHouseUser(@Param("id") Long houseId);
+	public HouseUser selectSaleHouseUser(@Param("id") Long houseId);
 
-	int insertHouseUser(HouseUser houseUser);
+	public int insertHouseUser(HouseUser houseUser);
 
-	int insertUserMsg(UserMsg userMsg);
+	public int insertUserMsg(UserMsg userMsg);
 
-	int updateHouse(House updateHouse);
+	public int updateHouse(House updateHouse);
 	
-	int downHouse(Long id);
+	public  int downHouse(Long id);
 
-	int deleteHouseUser(@Param("id")Long id,@Param("userId") Long userId,@Param("type") Integer value);
+	public int deleteHouseUser(@Param("id")Long id,@Param("userId") Long userId,@Param("type") Integer value);
 	
 }

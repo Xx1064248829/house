@@ -13,8 +13,8 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BlogMapper {
 
-  List<Blog> selectBlog(@Param("blog")Blog query, @Param("pageParams")PageParams params);
+  public List<Blog> selectBlog(@Param("blog")Blog query, @Param("pageParams")PageParams params);
 
-  Long selectBlogCount(Blog query);
+  public Long selectBlogCount(Blog query);
 
 }

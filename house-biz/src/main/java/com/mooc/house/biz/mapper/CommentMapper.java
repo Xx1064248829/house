@@ -15,7 +15,7 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface CommentMapper {
-//
+
 //  List<House> selectHouse(@Param("house") House query, @Param("pageParams")  PageParams pageParams);
 //
 //  Long selectHouseCount(@Param("house")House query);
