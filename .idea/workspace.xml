@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="dbe6fa8a-b34b-408e-b1d0-606f1fcbfb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house-web/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/house-web/target/" />
@@ -24,11 +24,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+            <state relative-caret-position="413">
+              <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding>
+                <element signature="n#js#0;n#!!top" />
+                <element signature="n#hot#0;n#!!top" />
+                <element signature="n#search#0;n#!!top" />
+                <element signature="n#paging#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="108" column="73" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/HouseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -36,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="105" column="39" lean-forward="true" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+            <state relative-caret-position="172">
+              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -58,6 +100,12 @@
       <find>codecentric</find>
       <find>评论</find>
       <find>form-contact-agent-submit</find>
+      <find>navigation</find>
+      <find>Testimonials</find>
+      <find>Register</find>
+      <find>link-arrow</find>
+      <find>static/assets/img</find>
+      <find>strong</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,8 +134,9 @@
         <option value="$PROJECT_DIR$/house-web/pom.xml" />
         <option value="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" />
         <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" />
       </list>
     </option>
   </component>
@@ -525,6 +574,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="homepage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="house" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -558,6 +617,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
@@ -713,7 +773,7 @@
       <workItem from="1577260425917" duration="2412000" />
       <workItem from="1577265202181" duration="1601000" />
       <workItem from="1577325863575" duration="2237000" />
-      <workItem from="1577346642141" duration="5477000" />
+      <workItem from="1577346642141" duration="9604000" />
     </task>
     <task id="LOCAL-00001" summary="去除显示的error信息">
       <created>1577261203439</created>
@@ -722,11 +782,18 @@
       <option name="project" value="LOCAL" />
       <updated>1577261203439</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="规范代码">
+      <created>1577352856703</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577352856703</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85518000" />
+    <option name="totallyTimeSpent" value="89645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
@@ -742,7 +809,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.40890688" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18209256" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27162978" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3026874" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -812,18 +879,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去除显示的error信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="去除显示的error信息" />
+    <MESSAGE value="规范代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="规范代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/star-off.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-04.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/about-us-bg.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-01.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -961,24 +1020,51 @@
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/flags/zm.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/HouseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="208">
           <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java">
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="105" column="39" lean-forward="true" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+        <state relative-caret-position="113">
+          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="n#js#0;n#!!top" />
+            <element signature="n#hot#0;n#!!top" />
+            <element signature="n#search#0;n#!!top" />
+            <element signature="n#paging#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="191" lean-forward="true" selection-start-line="191" selection-end-line="191" />
+        <state relative-caret-position="413">
+          <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="108" column="73" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
         </state>
       </provider>
     </entry>
