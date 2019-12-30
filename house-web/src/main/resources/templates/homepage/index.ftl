@@ -149,6 +149,9 @@
                 </div><!-- /.row-->
             </div><!-- /.container-->
         </section><!-- /#new-properties-->
+
+
+<#--        -->
 <#--        <section id="testimonials" class="block">-->
 <#--            <div class="container">-->
 <#--                <header class="section-title"><h2>Testimonials</h2></header>-->
@@ -180,6 +183,8 @@
 <#--                </div><!-- /.testimonials-carousel &ndash;&gt;-->
 <#--            </div><!-- /.container &ndash;&gt;-->
 <#--        </section><!-- /#testimonials &ndash;&gt;-->
+
+
         <section id="partners" class="block">
             <div class="container">
                 <header class="section-title"><strong><h2>合作伙伴</h2></strong></header>

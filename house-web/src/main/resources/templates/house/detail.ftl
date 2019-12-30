@@ -15,7 +15,7 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#">Home</a></li>
-                <li class="active">Property Detail</li>
+                <li class="active">房产细项</li>
             </ol>
         </div>
         <!-- end Breadcrumb -->
@@ -178,7 +178,7 @@
                                                             </div><!-- /.form-group -->
                                                             <div class="form-group">
                                                                 <button type="submit" class="btn pull-right btn-default"
-                                                                        id="form-contact-agent-submit">Send a Message
+                                                                        id="form-contact-agent-submit">发送邮件
                                                                 </button>
                                                             </div><!-- /.form-group -->
                                                             <div id="form-contact-agent-status"></div>
@@ -209,7 +209,7 @@
                                             <div id="form-contact-agent-status"></div>
                                         </form><!-- /#form-contact -->
                                     </div>
-                                    <header><h2 class="no-border">Comments</h2></header>
+                                    <header><h2 class="no-border">评论区</h2></header>
                                     <ul class="comments">
                                         <#list commentList as comment>
                                             <li class="comment" style="width: 830px;">

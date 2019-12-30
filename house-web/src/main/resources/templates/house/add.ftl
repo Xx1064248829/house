@@ -28,7 +28,7 @@
                         <div class="col-md-9 col-sm-9">
                             <section id="submit-form">
                                 <section id="basic-information">
-                                    <header><h2>Basic Information</h2></header>
+                                    <header><h2>基本信息</h2></header>
                                     <div class="row">
                                         <div class="col-md-8">
                                             <div class="form-group">
@@ -132,8 +132,8 @@
                                     <header><h2>房屋图片</h2></header>
                                     <div class="center">
                                         <div class="form-group">
-                                            <input id="file-upload" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="Browse Images" name="houseFiles">
-                                            <figure class="note"><strong>Hint:</strong> You can upload all images at once!</figure>
+                                            <input id="file-upload" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="选择文件" name="houseFiles">
+                                            <figure class="note"><strong>提示:</strong> 你可以一次性上传多张图片</figure>
                                         </div>
                                     </div>
                                 </section>
@@ -142,8 +142,8 @@
                                     <header><h2>户型图片</h2></header>
                                     <div class="center">
                                         <div class="form-group">
-                                            <input id="file-upload" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="Browse Images" name="floorPlanFiles">
-                                            <figure class="note"><strong>Hint:</strong> You can upload all images at once!</figure>
+                                            <input id="file-upload" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="选择文件" name="floorPlanFiles">
+                                            <figure class="note"><strong>提示:</strong> 你可以一次性上传多张图片</figure>
                                         </div>
                                     </div>
                                 </section> 
@@ -180,8 +180,8 @@
                             <aside class="submit-step">
                                 <figure class="step-number">2</figure>
                                 <div class="description">
-                                    <h4>Enter Information About Property</h4>
-                                    <p>Type information about your property. Be descriptive.
+                                    <h4>输入有关房产属性的信息</h4>
+                                    <p>信息类型是是描述性的
                                     </p>
                                 </div>
                             </aside><!-- /.submit-step -->

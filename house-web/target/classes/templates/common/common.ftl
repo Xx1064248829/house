@@ -52,9 +52,9 @@
                             <article>
                                 <strong><h3>常用链接</h3></strong>
                                 <ul class="list-unstyled list-links">
-                                    <li><a href="/index">房源搜索</a></li>
-                                    <li><a href="/accounts/register">注册新账号</a></li>
-                                    <li><a href="/blog/list">博客区</a></li>
+                                    <li><a href="/index"><strong>房源搜索</strong></a></li>
+                                    <li><a href="/accounts/register"><strong>注册新账号</strong></a></li>
+                                    <li><a href="/blog/list"><strong>博客区</strong></a></li>
                                 </ul>
                             </article>
                         </div>

@@ -3,10 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="dbe6fa8a-b34b-408e-b1d0-606f1fcbfb7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/add.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/add.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentList.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/common/common.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/homepage/index.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/homepage/index.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/house/add.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/house/add.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/house/detail.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house-web/target/classes/templates/user/agent/agentList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/house-web/target/classes/templates/user/agent/agentList.ftl" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/house-web/target/" />
@@ -25,63 +32,76 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/01.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="111" column="36" lean-forward="true" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/mapper/UserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
-              <folding>
-                <element signature="n#js#0;n#!!top" />
-                <element signature="n#hot#0;n#!!top" />
-                <element signature="n#search#0;n#!!top" />
-                <element signature="n#paging#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="411">
+              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl">
+        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/FileService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="108" column="73" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
+            <state relative-caret-position="234">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#505#520#1" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/HouseService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-01.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493366546/property-04.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -106,7 +126,13 @@
       <find>link-arrow</find>
       <find>static/assets/img</find>
       <find>strong</find>
+      <find>comments</find>
+      <find>search</find>
+      <find>imgPrefix</find>
     </findStrings>
+    <dirStrings>
+      <dir>E:\IDEA\Projects\house\house\house-web\src\main\resources\static\static\imgs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -132,11 +158,14 @@
         <option value="$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/filter/LogFilter.java" />
         <option value="$PROJECT_DIR$/house-web/pom.xml" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java" />
-        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" />
         <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/add.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentList.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentDetail.ftl" />
         <option value="$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl" />
+        <option value="$PROJECT_DIR$/house-web/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -502,30 +531,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="house-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="properties" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="house-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
@@ -590,6 +596,49 @@
               <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="house" type="462c0819:PsiDirectoryNode" />
               <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="accounts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="agency" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="agent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="house-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="house-web" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -617,6 +666,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
@@ -773,7 +825,9 @@
       <workItem from="1577260425917" duration="2412000" />
       <workItem from="1577265202181" duration="1601000" />
       <workItem from="1577325863575" duration="2237000" />
-      <workItem from="1577346642141" duration="9604000" />
+      <workItem from="1577346642141" duration="9986000" />
+      <workItem from="1577416254737" duration="4037000" />
+      <workItem from="1577670055640" duration="7027000" />
     </task>
     <task id="LOCAL-00001" summary="去除显示的error信息">
       <created>1577261203439</created>
@@ -789,17 +843,24 @@
       <option name="project" value="LOCAL" />
       <updated>1577352856703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="修改前端显示样式">
+      <created>1577356932618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1577356932618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89645000" />
+    <option name="totallyTimeSpent" value="101091000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.06789251" visible="true" weight="0.19760479" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.06789251" visible="true" weight="0.20159681" />
       <window_info id="Structure" order="1" sideWeight="0.9321075" side_tool="true" weight="0.2935657" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -808,9 +869,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.40890688" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27162978" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3026874" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.24044265" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30684105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30181086" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -880,104 +941,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="去除显示的error信息" />
     <MESSAGE value="规范代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="规范代码" />
+    <MESSAGE value="修改前端显示样式" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改前端显示样式" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-big-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agent-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/AjaxLoader.gif">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/big-star-off.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/big-star-on.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/client-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/cluster.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/error-page-background.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/grabbing.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo-partner-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo-partner-03.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-06.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/sine-wave.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-03.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/slide-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/floor-plan-01.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/floor-plan-big.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/floor-plan-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/fonts/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5400" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-02.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/css/colors/green.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/css/colors/brown.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/css/leaflet.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/bootstrap/css/bootstrap-theme.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/flags/ad.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/flags/af.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/flags/al.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1022,29 +989,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/java/com/mooc/house/web/controller/HouseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="1458">
           <caret line="104" column="22" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/HouseService.java">
+    <entry file="jar://E:/jdk1.8/JDK1.8/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="50" column="30" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="483">
+          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/common/common.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        <state relative-caret-position="218">
+          <caret line="58" column="38" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
           <folding>
             <element signature="n#js#0;n#!!top" />
             <element signature="n#hot#0;n#!!top" />
@@ -1054,19 +1014,249 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/add.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="128" column="41" selection-start-line="128" selection-start-column="41" selection-end-line="128" selection-end-column="41" />
+        <state relative-caret-position="2484">
+          <caret line="138" column="42" lean-forward="true" selection-start-line="138" selection-start-column="42" selection-end-line="138" selection-end-column="42" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/detail.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/hello.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/blog/detail.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/listing.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/ownlist.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/house/profile.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/user/agent/agentDetail.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="170" column="68" lean-forward="true" selection-start-line="170" selection-start-column="68" selection-end-line="170" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-06.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-detail-02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/property-detail-01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-02.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-05.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/properties/thumb-property-06.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://E:/jdk1.8/JDK1.8/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="554" column="18" selection-start-line="554" selection-start-column="18" selection-end-line="554" selection-end-column="18" />
+          <folding>
+            <element signature="e#23018#23019#0" expanded="true" />
+            <element signature="e#23057#23058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/MailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding>
+            <element signature="e#935#960#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/HouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493442221/member-04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493440315/member-03.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/1493366546/property-04.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/agency-logo-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/resources/mapper/user.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="82" column="42" lean-forward="true" selection-start-line="82" selection-start-column="42" selection-end-line="82" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/imgs/01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo-partner-02.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/logo-partner-01.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/static/static/assets/img/client-01.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/templates/homepage/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="108" column="73" selection-start-line="108" selection-start-column="73" selection-end-line="108" selection-end-column="73" />
+        <state relative-caret-position="265">
+          <caret line="111" column="36" lean-forward="true" selection-start-line="111" selection-start-column="36" selection-end-line="111" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/house-web/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house-biz/src/main/java/com/mooc/house/biz/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#520#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
