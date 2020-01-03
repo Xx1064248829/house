@@ -11,13 +11,13 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserMapper {
 
-	public List<User>  selectUsers();
-	
-	public int insert(User account);
+  List<User> selectUsers();
 
-	public int delete(String email);
+  int insert(User account);
 
-	public int update(User updateUser);
+  int delete(String email);
 
-	public List<User> selectUsersByQuery(User user);
+  int update(User updateUser);
+
+  List<User> selectUsersByQuery(User user);
 }

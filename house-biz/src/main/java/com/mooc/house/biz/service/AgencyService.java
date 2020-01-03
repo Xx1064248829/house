@@ -79,9 +79,9 @@ public class AgencyService {
     return  agencyMapper.insert(agency);
   }
 
-  public void sendMsg(User agent, String msg, String name, String email) {
-    // TODO Auto-generated method stub
-    
-  }
+//  public void sendMsg(User agent, String msg, String name, String email) {
+//    // TODO Auto-generated method stub
+//
+//  }
 
 }

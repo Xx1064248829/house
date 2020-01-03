@@ -4,77 +4,77 @@ import java.util.Date;
 
 public class UserMsg {
 
-	private Long id;
-	private String msg;
-	private Long  userId;
-	private Date  createTime;
-	private Long  agentId;
-	private Long  houseId;
-	private String email;
-	
-	private String userName;
+  private Long id;
+  private String msg;
+  private Long userId;
+  private Date createTime;
+  private Long agentId;
+  private Long houseId;
+  private String email;
 
-	public Long getId() {
-		return id;
-	}
+  private String userName;
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+  public Long getId() {
+    return id;
+  }
 
-	public String getMsg() {
-		return msg;
-	}
+  public void setId(Long id) {
+    this.id = id;
+  }
 
-	public void setMsg(String msg) {
-		this.msg = msg;
-	}
+  public String getMsg() {
+    return msg;
+  }
 
-	public Long getUserId() {
-		return userId;
-	}
+  public void setMsg(String msg) {
+    this.msg = msg;
+  }
 
-	public void setUserId(Long userId) {
-		this.userId = userId;
-	}
+  public Long getUserId() {
+    return userId;
+  }
 
-	public Date getCreateTime() {
-		return createTime;
-	}
+  public void setUserId(Long userId) {
+    this.userId = userId;
+  }
 
-	public void setCreateTime(Date createTime) {
-		this.createTime = createTime;
-	}
+  public Date getCreateTime() {
+    return createTime;
+  }
 
-	public Long getAgentId() {
-		return agentId;
-	}
+  public void setCreateTime(Date createTime) {
+    this.createTime = createTime;
+  }
 
-	public void setAgentId(Long agentId) {
-		this.agentId = agentId;
-	}
+  public Long getAgentId() {
+    return agentId;
+  }
 
-	public Long getHouseId() {
-		return houseId;
-	}
+  public void setAgentId(Long agentId) {
+    this.agentId = agentId;
+  }
 
-	public void setHouseId(Long houseId) {
-		this.houseId = houseId;
-	}
+  public Long getHouseId() {
+    return houseId;
+  }
 
-	public String getEmail() {
-		return email;
-	}
+  public void setHouseId(Long houseId) {
+    this.houseId = houseId;
+  }
 
-	public void setEmail(String email) {
-		this.email = email;
-	}
+  public String getEmail() {
+    return email;
+  }
 
-	public String getUserName() {
-		return userName;
-	}
+  public void setEmail(String email) {
+    this.email = email;
+  }
 
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
+  public String getUserName() {
+    return userName;
+  }
+
+  public void setUserName(String userName) {
+    this.userName = userName;
+  }
 }

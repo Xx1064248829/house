@@ -11,7 +11,7 @@ import com.mooc1.house.autoconfig.EnableHttpClient;
 @EnableAsync
 public class HouseApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(HouseApplication.class, args);
-	}
+  public static void main(String[] args) {
+    SpringApplication.run(HouseApplication.class, args);
+  }
 }

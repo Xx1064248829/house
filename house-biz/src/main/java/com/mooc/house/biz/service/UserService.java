@@ -16,19 +16,14 @@ import com.mooc.house.common.utils.HashUtils;
 @Service
 public class UserService {
 
+  @Autowired private FileService fileService;
 
-  @Autowired
-  private FileService fileService;
+  @Autowired private MailService mailService;
 
-  @Autowired
-  private MailService mailService;
-
-  @Autowired
-  private UserMapper userMapper;
+  @Autowired private UserMapper userMapper;
 
   @Value("${file.prefix}")
   private String imgPrefix;
-
 
   public List<User> getUsers() {
     return userMapper.selectUsers();
@@ -36,7 +31,7 @@ public class UserService {
 
   /**
    * 1.插入数据库，非激活;密码加盐md5;保存头像文件到本地 2.生成key，绑定email 3.发送邮件给用户
-   * 
+   *
    * @param account
    * @return
    */
@@ -61,7 +56,7 @@ public class UserService {
 
   /**
    * 用户名密码验证
-   * 
+   *
    * @param username
    * @param password
    * @return
@@ -78,12 +73,12 @@ public class UserService {
     return null;
   }
 
-
   public List<User> getUserByQuery(User user) {
     List<User> list = userMapper.selectUsersByQuery(user);
-    list.forEach(u -> {
-      u.setAvatar(imgPrefix + u.getAvatar());
-    });
+    list.forEach(
+        u -> {
+          u.setAvatar(imgPrefix + u.getAvatar());
+        });
     return list;
   }
 
@@ -92,7 +87,6 @@ public class UserService {
     BeanHelper.onUpdate(updateUser);
     userMapper.update(updateUser);
   }
-
 
   public User getUserById(Long id) {
     User queryUser = new User();
@@ -107,13 +101,14 @@ public class UserService {
   public void resetNotify(String username) {
     mailService.resetNotify(username);
   }
-  
+
   /**
    * 重置密码操作
+   *
    * @param key
    */
-  @Transactional(rollbackFor=Exception.class)
-  public User reset(String key,String password){
+  @Transactional(rollbackFor = Exception.class)
+  public User reset(String key, String password) {
     String email = getResetEmail(key);
     User updateUser = new User();
     updateUser.setEmail(email);
@@ -122,8 +117,6 @@ public class UserService {
     mailService.invalidateRestKey(key);
     return getUserByEmail(email);
   }
-  
-  
 
   public User getUserByEmail(String email) {
     User queryUser = new User();
@@ -138,12 +131,9 @@ public class UserService {
   public String getResetEmail(String key) {
     String email = "";
     try {
-      email =  mailService.getResetEmail(key);
+      email = mailService.getResetEmail(key);
     } catch (Exception ignore) {
     }
     return email;
   }
-
-
-
 }

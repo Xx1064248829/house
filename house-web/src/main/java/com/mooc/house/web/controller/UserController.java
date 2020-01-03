@@ -21,15 +21,13 @@ import com.mooc.house.common.utils.HashUtils;
 @Controller
 public class UserController {
 
-  @Autowired
-  private UserService userService;
-  
-  @Autowired
-  private AgencyService agencyService;
+  @Autowired private UserService userService;
+
+  @Autowired private AgencyService agencyService;
 
   /**
    * 注册提交:1.注册验证 2 发送邮件 3验证失败重定向到注册页面 注册页获取:根据account对象为依据判断是否注册页获取请求
-   * 
+   *
    * @param account
    * @param modelMap
    * @return
@@ -37,7 +35,7 @@ public class UserController {
   @RequestMapping("accounts/register")
   public String accountsRegister(User account, ModelMap modelMap) {
     if (account == null || account.getName() == null) {
-      modelMap.put("agencyList",  agencyService.getAllAgency());
+      modelMap.put("agencyList", agencyService.getAllAgency());
       return "/user/accounts/register";
     }
     // 用户验证
@@ -62,9 +60,7 @@ public class UserController {
 
   // ----------------------------登录流程------------------------------------
 
-  /**
-   * 登录接口
-   */
+  /** 登录接口 */
   @RequestMapping("/accounts/signin")
   public String signin(HttpServletRequest req) {
     String username = req.getParameter("username");
@@ -76,7 +72,12 @@ public class UserController {
     }
     User user = userService.auth(username, password);
     if (user == null) {
-      return "redirect:/accounts/signin?" + "target=" + target + "&username=" + username + "&"
+      return "redirect:/accounts/signin?"
+          + "target="
+          + target
+          + "&username="
+          + username
+          + "&"
           + ResultMsg.errorMsg("用户名或密码错误").asUrlParams();
     } else {
       HttpSession session = req.getSession(true);
@@ -88,7 +89,7 @@ public class UserController {
 
   /**
    * 登出操作
-   * 
+   *
    * @param request
    * @return
    */
@@ -102,7 +103,7 @@ public class UserController {
   // ---------------------个人信息页-------------------------
   /**
    * 1.能够提供页面信息 2.更新用户信息
-   * 
+   *
    * @param updateUser
    * @param model
    * @return
@@ -122,7 +123,7 @@ public class UserController {
 
   /**
    * 修改密码操作
-   * 
+   *
    * @param email
    * @param password
    * @param newPassword
@@ -131,11 +132,11 @@ public class UserController {
    * @return
    */
   @RequestMapping("accounts/changePassword")
-  public String changePassword(String email, String password, String newPassword,
-    String confirmPassword, ModelMap mode) {
+  public String changePassword(
+      String email, String password, String newPassword, String confirmPassword, ModelMap mode) {
     User user = userService.auth(email, password);
     if (user == null || !confirmPassword.equals(newPassword)) {
-      return "redirct:/accounts/profile?" + ResultMsg.errorMsg("密码错误").asUrlParams();
+      return "redirect:/accounts/profile?" + ResultMsg.errorMsg("密码错误").asUrlParams();
     }
     User updateUser = new User();
     updateUser.setPasswd(HashUtils.encryPassword(newPassword));
@@ -143,9 +144,9 @@ public class UserController {
     return "redirect:/accounts/profile?" + ResultMsg.successMsg("更新成功").asUrlParams();
   }
 
-
   /**
    * 忘记密码
+   *
    * @param username
    * @param modelMap
    * @return
@@ -159,9 +160,9 @@ public class UserController {
     modelMap.put("email", username);
     return "/user/accounts/remember";
   }
-  
+
   @RequestMapping("accounts/reset")
-  public String reset(String key,ModelMap modelMap){
+  public String reset(String key, ModelMap modelMap) {
     String email = userService.getResetEmail(key);
     if (StringUtils.isBlank(email)) {
       return "redirect:/accounts/signin?" + ResultMsg.errorMsg("重置链接已过期").asUrlParams();
@@ -170,22 +171,21 @@ public class UserController {
     modelMap.put("success_key", key);
     return "/user/accounts/reset";
   }
-  
-  @RequestMapping(value="accounts/resetSubmit")
-  public String resetSubmit(HttpServletRequest req,User user){
-    ResultMsg retMsg = UserHelper.validateResetPassword(user.getKey(), user.getPasswd(), user.getConfirmPasswd());
-    if (!retMsg.isSuccess() ) {
+
+  @RequestMapping(value = "accounts/resetSubmit")
+  public String resetSubmit(HttpServletRequest req, User user) {
+    ResultMsg retMsg =
+        UserHelper.validateResetPassword(user.getKey(), user.getPasswd(), user.getConfirmPasswd());
+    if (!retMsg.isSuccess()) {
       String suffix = "";
       if (StringUtils.isNotBlank(user.getKey())) {
-         suffix = "email=" + userService.getResetEmail(user.getKey()) + "&key=" +  user.getKey() + "&";
+        suffix =
+            "email=" + userService.getResetEmail(user.getKey()) + "&key=" + user.getKey() + "&";
       }
-      return "redirect:/accounts/reset?"+ suffix  + retMsg.asUrlParams();
+      return "redirect:/accounts/reset?" + suffix + retMsg.asUrlParams();
     }
-    User updatedUser =  userService.reset(user.getKey(),user.getPasswd());
+    User updatedUser = userService.reset(user.getKey(), user.getPasswd());
     req.getSession(true).setAttribute(CommonConstants.USER_ATTRIBUTE, updatedUser);
     return "redirect:/index?" + retMsg.asUrlParams();
   }
-  
-  
-
 }
