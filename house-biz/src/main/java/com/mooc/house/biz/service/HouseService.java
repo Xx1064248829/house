@@ -62,7 +62,7 @@ public class HouseService {
 	}
 
 	public List<House> queryAndSetImg(House query, PageParams pageParams) {
-		List<House> houses =   houseMapper.selectPageHouses(query, pageParams);
+		List<House> houses = houseMapper.selectPageHouses(query, pageParams);
 		houses.forEach(h ->{
 			h.setFirstImg(imgPrefix + h.getFirstImg());
 			h.setImageList(h.getImageList().stream().map(img -> imgPrefix + img).collect(Collectors.toList()));

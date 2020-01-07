@@ -83,14 +83,14 @@
     $(document).ready(function() {
           var errorMsg   = "${errorMsg!""}";
           var successMsg = "${successMsg!""}";
-          if(errorMsg){ 
+          if(errorMsg){
               errormsg("error",errorMsg);
           }
           if(successMsg) {
               successmsg("success",successMsg);
           }
         })
-        
+
  </script>
 </body>
 </html>

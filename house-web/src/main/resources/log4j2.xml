@@ -23,7 +23,6 @@
             </DefaultRolloverStrategy>
         </RollingRandomAccessFile>
         
-        
         <RollingRandomAccessFile name="FILE-DEBUG" fileName="logs/house-debug.log"
             filePattern="logs/house-debug.%d{yyyy-MM-dd-HH}.log">
             <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />

@@ -27,7 +27,8 @@ public class RecommendService {
 
   public void increase(Long id) {
     try {
-      Jedis jedis = new Jedis("127.0.0.1");
+      Jedis jedis = new Jedis("127.0.0.1",6379);
+      jedis.auth("123456");
       jedis.zincrby(HOT_HOUSE_KEY, 1.0D, id + "");
       jedis.zremrangeByRank(HOT_HOUSE_KEY, 0, -11); // 0代表第一个元素,-1代表最后一个元素，保留热度由低到高末尾10个房产
       jedis.close();
@@ -38,7 +39,8 @@ public class RecommendService {
 
   public List<Long> getHot() {
     try {
-      Jedis jedis = new Jedis("127.0.0.1");
+      Jedis jedis = new Jedis("127.0.0.1",6379);
+      jedis.auth("123456");
       Set<String> idSet = jedis.zrevrange(HOT_HOUSE_KEY, 0, -1);
       jedis.close();
       List<Long> ids = idSet.stream().map(Long::parseLong).collect(Collectors.toList());

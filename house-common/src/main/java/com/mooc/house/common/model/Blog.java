@@ -11,7 +11,6 @@ public class Blog {
   private String content;
   private String title;
   private Date createTime;
-  private String digest;
 
   private List<String> tagList = Lists.newArrayList();
 
@@ -47,20 +46,8 @@ public class Blog {
     this.createTime = createTime;
   }
 
-  public String getDigest() {
-    return digest;
-  }
-
-  public void setDigest(String digest) {
-    this.digest = digest;
-  }
-
   public List<String> getTagList() {
     return tagList;
-  }
-
-  public void setTagList(List<String> tagList) {
-    this.tagList = tagList;
   }
 
   public String getTitle() {
