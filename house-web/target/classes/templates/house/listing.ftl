@@ -44,8 +44,7 @@
                             </figure>
                         </section>
                     <section id="properties" class="display-lines">
-                      <#list ps.list as house> 
-                       
+                      <#list ps.list as house>
                             <div class="property">
                                 <figure class="tag status">${house.typeStr}</figure>
                                 <div class="property-image">
@@ -55,7 +54,7 @@
                                     </a>
                                 </div>
 
-                                <div class="info">
+                                <div class="info" style="width: 300px">
                                     <header>
                                         <a href="/house/detail?id=${house.id}"><h3>${house.name}</h3></a>
                                         <figure>${house.address}</figure>
@@ -63,10 +62,8 @@
                                     </header>
                                     <div class="tag price">￥ ${house.price}万</div>
                                     <aside>
-                                         <p>${house.remarks}
-                                        </p>
-
-                                        <dl>
+                                         <p>${house.remarks}</p>
+                                        <dl style="width: 150px">
                                             <dt>Status:</dt>
                                                 <dd>Sale</dd>
                                             <dt>Area:</dt>
@@ -77,6 +74,7 @@
                                                 <dd>${house.baths}</dd>
                                         </dl>
                                     </aside>
+                                    <br/>
                                     <a href="/house/detail?id=${house.id}" class="link-arrow">Read More</a>
                                 </div>
                             </div>
@@ -99,7 +97,7 @@
                             <form role="form" id="searchForm" class="form-search" method="post" action="/house/list">
 
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="search-box-property-id" value="${(vo.name)!}" name="name" placeholder="尝试输入小区名">
+                                    <input type="text" class="form-control" id="search-box-property-id" value="${(vo.name)!}" name="name" placeholder="尝试输入小区或者房产名">
                                 </div>
                                 <div class="form-group">
                                     <select name="type">

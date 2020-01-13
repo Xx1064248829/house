@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mooc.house.biz.mapper.AgencyMapper">
+<mapper namespace="com.ljq.house.biz.mapper.AgencyMapper">
 
     <sql id="agencyField">
           id ,
@@ -29,12 +29,12 @@
 
     <insert id="insert">
       insert into agency(
-				        name ,
-				        address ,
-				        phone ,
-				        email ,
-				        about_us ,
-				        mobile ,
+				        name,
+				        address,
+				        phone,
+				        email,
+				        about_us,
+				        mobile,
 				        web_site)
                   value(
                        #{name},
@@ -44,9 +44,7 @@
                        #{aboutUs},
                        #{mobile},
                        #{webSite}
-                  )
-      
-    
+                        )
     </insert>
 
     <sql id="agentField">
@@ -62,6 +60,7 @@
       enable,
       agency_id
    </sql>
+
     <select id="selectAgent" resultType="user">
         select * from user
         <where>
@@ -96,5 +95,4 @@
         </where>
     </select>
 
-
-</mapper> 
+</mapper>

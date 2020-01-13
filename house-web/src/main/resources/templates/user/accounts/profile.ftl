@@ -49,8 +49,7 @@
                                 <div class="col-md-9 col-sm-9">
                                     <form role="form" id="form-account-profile" method="post" action="/accounts/profile">
                                         <input type="hidden" value="${(loginUser.email)!}" name="email" />
-                                    
-                                      
+
                                         <section id="contact">
                                             <h3>联系方式</h3>
                                             <dl class="contact-fields">

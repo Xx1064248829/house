@@ -27,7 +27,6 @@
                     <section id="about-us">
                         <header><h1>注册成功</h1></header>
                         <section id="ceo-section" class="center">
-                           
                             <div class="cite no-bottom-margin">已经向邮箱${email}发送确认邮件，请及时激活，激活后方可开通账号
                             </div>
                         </section>

@@ -14,6 +14,7 @@
         <div class="container">
             <ol class="breadcrumb">
                 <li><a href="#">Home</a></li>
+                <li><a href="#">Agents</a></li>
                 <li class="active">经纪人列表</li>
             </ol>
         </div>
@@ -37,10 +38,10 @@
                                             <dd>${agent.phone!}</dd>
                                             <dt>Email:</dt>
                                             <dd><a href="mailto:#">${agent.email!}</a></dd>
-                                            <dt>   </dt>
-                                            <dd> &nbsp;&nbsp;</dd>
-                                            <dt>&nbsp;  </dt>
-                                            <dd>&nbsp;&nbsp;&nbsp;</dd>
+                                            <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt>
+                                            <dd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dd>
+                                            <dt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dt>
+                                            <dd>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</dd>
                                         </dl>
                                     </div>
                                 </div><!-- /.agent -->
@@ -83,14 +84,14 @@
     $(document).ready(function() {
           var errorMsg   = "${errorMsg!""}";
           var successMsg = "${successMsg!""}";
-          if(errorMsg){
+          if(errorMsg){ 
               errormsg("error",errorMsg);
           }
           if(successMsg) {
               successmsg("success",successMsg);
           }
         })
-
+        
  </script>
 </body>
 </html>

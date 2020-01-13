@@ -32,7 +32,7 @@
                         <article class="blog-post">
                             <header><a href="/blog/detail?id=${blog.id}"><h2>${blog.title}</h2></a></header>
                             <figure class="meta">
-                                <a href="#" class="link-icon"><i class="fa fa-user"></i>Admin</a>
+                                <a href="#" class="link-icon"><i HUANclass="fa fa-user"></i>Admin</a>
                                 <a href="#" class="link-icon"><i class="fa fa-calendar"></i><td>${(blog.createTime?datetime)}</td></a>
                                 <div class="tags">
                                    <#list blog.tagList as tag> 

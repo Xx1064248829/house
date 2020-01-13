@@ -18,4 +18,11 @@
       <module name="house-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="house-biz" options="-parameters" />
+      <module name="house-common" options="-parameters" />
+      <module name="house-web" options="-parameters" />
+    </option>
+  </component>
 </project>

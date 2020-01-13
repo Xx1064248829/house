@@ -58,7 +58,7 @@
                         </div><!-- /.form-group -->
                         <div class="form-group">
                             <label for="form-create-account-email">手机号:</label>
-                            <input type="text" class="form-control" id="form-create-account-email"  name="phone" >
+                            <input type="text" class="form-control" id="form-create-account-phone"  name="phone" >
                         </div><!-- /.form-group -->
                         <div class="form-group">
                             <label for="form-create-account-password">密码:</label>
@@ -78,13 +78,10 @@
                             <input id="file-upload" type="file" class="file" multiple="true" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-default" data-browse-label="Browse Images" name="avatarFile" required>
                             <figure class="note"><strong>Hint:</strong> You can upload all images at once!</figure>
                         </div>
-                              
-                        
+
                         <div class="form-group clearfix">
                             <button type="submit" class="btn pull-right btn-default" id="account-submit">注册账号</button>
                         </div><!-- /.form-group -->
-                        
-                        
 
                     </form>
                     <hr>

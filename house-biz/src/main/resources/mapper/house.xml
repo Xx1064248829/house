@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.mooc.house.biz.mapper.HouseMapper">
+<mapper namespace="com.ljq.house.biz.mapper.HouseMapper">
+
+    <select id="selectHouses" resultType="house">
+     select * from house
+   </select>
 
     <sql id="houseField">
      a.id,
@@ -93,13 +97,16 @@
         <include refid="houseCondition"></include>
     </select>
 
+    <select id="selectHouseById" resultType="com.ljq.house.common.model.House">
+        select *
+        from house
+        where id = #{id}
+    </select>
+
     <select id="selectCommunity" resultType="community">
         select *
         from community
         <where>
-            <if test="id != null and id != 0">
-                and id = #{id}
-            </if>
             <if test="name != null and name != ''">
                 and name = #{name}
             </if>
@@ -115,13 +122,35 @@
     <select id="selectSaleHouseUser" resultType="houseUser">
      select id,house_id,user_id,create_time,type
      from house_user
-     where house_id = #{id} and  type = 1
+     where house_id = #{id} and type = 1
      limit 1
    </select>
 
     <update id="updateHouse">
       update house
-      set  rating = #{rating}
+      set rating = #{rating}
+      where id = #{id}
+   </update>
+
+    <update id="updateHouseAll">
+      update house
+      set type = #{type},
+      name = #{name},
+      price = #{price},
+      images = #{images},
+      area = #{area},
+      beds = #{beds},
+      baths = #{baths},
+      rating = #{rating},
+      remarks = #{remarks},
+      properties = #{properties},
+      floor_plan = #{floor_plan},
+      tags = #{tags},
+      create_time = #{create_time},
+      city_id = #{city_id},
+      community_id = #{community_id},
+      address = #{address},
+      state = #{state},
       where id = #{id}
    </update>
 
@@ -184,7 +213,6 @@
                        #{createTime},
                        #{type}
                      )
-                     
    </insert>
 
     <insert id="insertUserMsg">
@@ -206,9 +234,14 @@
 
     <delete id="deleteHouseUser">
       delete from house_user
-      where  house_id = #{id} and user_id = #{userId} and type=#{type}
-    
+      where house_id = #{id} and user_id = #{userId} and type=#{type}
     </delete>
 
+    <select id="selectNationCount" resultType="String">
+     select count(city_id),city_name
+     from city,house
+     where city.id = house.city_id
+     group by city_id
+   </select>
 
 </mapper>
