@@ -23,7 +23,7 @@
                             <figure>深圳市南山区后海</figure>
                         </div>
                         <hr>
-                        <a href="property-detail.html" class="link-arrow">Read More</a>
+                        <a href="/house/list" class="link-arrow">Read More</a>
                     </div>
                 </div>
                 <img alt="" src="/static/assets/img/slide-01.jpg" style="height: 100%; width: auto;">

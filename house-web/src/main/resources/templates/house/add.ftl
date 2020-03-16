@@ -144,7 +144,7 @@
                                         <div class="form-group">
                                             <input id="file-upload" type="file" class="file" multiple="true"
                                                    data-show-upload="false" data-show-caption="false"
-                                                   data-show-remove="false" accept="image/jpeg,image/png"
+                                                   data-show-remove="false" accept="image/jpeg,image/png,image/pjpeg"
                                                    data-browse-class="btn btn-default" data-browse-label="Browse Images"
                                                    name="houseFiles">
                                             <figure class="note"><strong>Hint:</strong> You can upload all images at

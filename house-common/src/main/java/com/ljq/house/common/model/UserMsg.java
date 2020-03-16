@@ -10,7 +10,6 @@ public class UserMsg {
   private Long agentId;
   private Long houseId;
   private String email;
-
   private String userName;
 
   public UserMsg() {}

@@ -14,19 +14,19 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BlogMapper {
 
-    List<Blog> selectBlog(@Param("blog") Blog query, @Param("pageParams") PageParams params);
+  List<Blog> selectBlog(@Param("blog") Blog query, @Param("pageParams") PageParams params);
 
-    Long selectBlogCount(Blog query);
+  Long selectBlogCount(Blog query);
 
-    @Delete("DELETE FROM blog WHERE ID = #{id}")
-    void delete(Integer id);
+  @Delete("DELETE FROM blog WHERE ID = #{id}")
+  void delete(Integer id);
 
-    @Insert("INSERT INTO blog(TAGS,CONTENT,TITLE) VALUES(#{tags},#{content},#{title})")
-    Integer insert(Blog blog);
+  @Insert("INSERT INTO blog(TAGS,CONTENT,TITLE) VALUES(#{tags},#{content},#{title})")
+  Integer insert(Blog blog);
 
-    @Select("SELECT COUNT(*) FROM blog")
-    Long selectCount();
+  @Select("SELECT COUNT(*) FROM blog")
+  Long selectCount();
 
-    @Select("SELECT * FROM blog")
-    List<Blog> selectAllBlog();
+  @Select("SELECT * FROM blog")
+  List<Blog> selectAllBlog();
 }

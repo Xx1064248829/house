@@ -20,7 +20,6 @@ public class House {
   private Integer beds;
   private Integer baths;
   private Double rating;
-
   private Integer roundRating = 0;
   private String remarks;
   private String properties;

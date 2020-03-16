@@ -49,7 +49,7 @@ public interface HouseMapper {
 
   List<House> selectHouses();
 
- // boolean batchImport(String fileName, MultipartFile file) throws Exception;
+  // boolean batchImport(String fileName, MultipartFile file) throws Exception;
 
   House selectHouseById(@Param("id") Long id);
 
